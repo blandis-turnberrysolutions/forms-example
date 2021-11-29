@@ -51,7 +51,6 @@ function EditPage() {
       </Container>
       <Container>
         <PrintModal
-          isSubmitting={isSaving || isPrinting}
           open={printModalIsOpen}
           onClose={() => setPrintModalIsOpen(false)}
           onSubmit={submitPrint}
