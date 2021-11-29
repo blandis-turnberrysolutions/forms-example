@@ -9,6 +9,9 @@ const EditPageHeader = ({
   isLoading,
 }) => (
   <div>
+    <div style={{ float: "left" }}>
+      <h1>Edit</h1>
+    </div>
     <Button
       type="submit"
       form={formId}

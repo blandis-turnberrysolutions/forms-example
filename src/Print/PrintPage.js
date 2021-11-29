@@ -27,7 +27,7 @@ const PrintPage = () => {
   return (
     <div>
       <Container>
-        <PrintPageHeader></PrintPageHeader>
+        <PrintPageHeader />
       </Container>
       <Container>
         <Segment>
